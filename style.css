@@ -1,0 +1,46 @@
+/* تنسيق حاوية الأيقونة */
+.service-icon {
+    font-size: 40px; /* حجم الأيقونة */
+    color: #1C82AD; /* لون الأيقونة (أزرق فاتح) */
+    margin-bottom: 15px; /* مسافة بين الأيقونة وعنوان الخدمة */
+}
+
+/* تعديل بطاقة الخدمة لتصبح مركزية */
+.service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px 25px; /* زيادة الحشوة العلوية */
+    text-align: center; /* جعل كل المحتوى في الوسط */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex; /* استخدام flexbox للتحكم */
+    flex-direction: column; /* ترتيب العناصر بشكل عمودي */
+    align-items: center; /* محاذاة أفقية للمركز */
+}
+
+.service-card h3 {
+    margin-top: 0;
+    color: #0A2647;
+}
+
+/* التأكد من أن الفقرة والزر يأخذان العرض الكامل */
+.service-card p {
+    flex-grow: 1; /* يسمح للفقرة بالتمدد لملء المساحة */
+}
+
+.btn-secondary {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #28a745; /* أخضر */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #218838;
+}
